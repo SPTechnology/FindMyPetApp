@@ -44,6 +44,9 @@ export default class HomeScreen extends React.Component {
             <Text style={styles.getStartedText}>
               Change this text and your app will automatically reload.
             </Text>
+            <Text style={styles.getStartedText2}>
+              Changing any of this code will cause the app to automatically reload.
+            </Text>
           </View>
 
           <View style={styles.helpContainer}>
@@ -143,6 +146,12 @@ const styles = StyleSheet.create({
   getStartedText: {
     fontSize: 17,
     color: 'rgba(96,100,109, 1)',
+    lineHeight: 24,
+    textAlign: 'center',
+  },
+   getStartedText2: {
+    fontSize: 17,
+    color: 'blue',
     lineHeight: 24,
     textAlign: 'center',
   },
